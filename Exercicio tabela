@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+            *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        } 
+
+        th, td{
+            padding: 5px 7px;
+        }
+        .estado{
+            background-color: blue;
+            color: white
+        }
+        .sigla{
+            background-color: green;
+            color: white;
+        }
+        .populacao{
+            background-color: yellow;
+            color: rgb(58, 59, 2);
+        }
+</style>
+<body>
+    <h1>População de cada estado</h1>
+    <table>
+        <tr class="estado">
+            <th>Estados</th>
+            <td>Santa Catarina</td>
+            <td>Rio Grande do Sul</td>
+            <td>Paraná</td>
+       </tr>
+       <tr class="sigla">
+            <th>Siglas</th>
+            <td>SC</td>
+            <td>RS</td>
+            <td>PR</td>
+       </tr>
+       <tr class="populacao">
+            <th>População</th>
+            <td>7.165 MI</td>
+            <td>11.29 MI</td>
+            <td>11.08 MI</td>
+       </tr>    
+    </table>
+</body>
+</html>
