@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<title>Formulário</title>
+<h2>Formulário</h2>
+<form action="/action_page.php" id="dados-pessoais">
+<fieldset>
+    <legend>Dados pessoais</legend>
+<ol>
+        <li><label>Nome: <input type="text" placeholder="nome completo"></li>
+        <li><label>Email: <input type="text" placeholder=".........@gmail.com"></li>
+        <li><label>Endereço: <input type="text" placeholder="Rua ......, n°...."></li>
+        <li><label>Telefone: <input type="tel" placeholder="(..) .....-...."></li>
+    </ol>
+    </fieldset>
+</form>
+<p>Local de entrega</p><br>
+<form action="/action_page.php" id="local-entrega">
+<ol>
+        <li><label>Residencia: <textarea cols="20" rows="5" placeholder="endereço para entrega"></textarea></li>
+        <li><label>Código postal: <input type="text" placeholder=".....-..."></li>
+        <li><label>país: <input type="text"></li>
+    </ol>
+</form>
+</body>
+</html>
